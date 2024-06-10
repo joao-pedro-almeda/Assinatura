@@ -1,0 +1,23 @@
+*{margin: 0;
+    padding: 0;
+    }
+
+.corpo-do-site{
+    
+}
+
+.cabeçalho{
+    background-color: #00031d;
+   display: flex;
+   
+}
+
+.cabeçalho-imagem{
+width: 6%; 
+padding: 10px;
+}
+
+.fundo{
+    width: 100%;
+}
+
