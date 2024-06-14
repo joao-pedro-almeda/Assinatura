@@ -92,15 +92,31 @@ align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-
-
-
-
-
 .economize{
     color: aquamarine;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin: 12px;
+}
+
+.planos{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.mensal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125%;
+    background-color: #3d4dac;
+    border-radius: 10px;
+    border: solid 10px #3d4dac;
+}
+
+.anual{
+    background-color: #3d4dac;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125%;
+    border-radius: 10px;
+    border: solid 10px #3d4dac;
 }
