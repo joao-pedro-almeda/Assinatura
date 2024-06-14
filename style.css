@@ -30,9 +30,9 @@ align-items: center;
 
 .texto-cabeçalho2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #0A0072;
+    background-color: #002BE7;
     border-radius: 10px;
-    border: solid 10px #0A0072;
+    border: solid 10px #002BE7;
     font-size: 94%;
     padding: 0px 18px;
 }
@@ -41,7 +41,7 @@ align-items: center;
     background-image: url(Fundo-HBO.png); 
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: #0A0072;
+    background-color: #002BE7;
 }
 
 
@@ -78,9 +78,9 @@ align-items: center;
 
 .assine{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #0A0072;
+    background-color: #002BE7;
     border-radius: 10px;
-    border: solid 10px #0A0072;
+    border: solid 10px #002BE7;
     font-size: 96%;
     margin: 0px 400px;
 }
@@ -103,6 +103,7 @@ align-items: center;
     display: flex;
     color: white;
     justify-content: center;
+
 }
 
 .mensal{
