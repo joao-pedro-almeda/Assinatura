@@ -38,7 +38,7 @@ align-items: center;
 }
 
 .corpo-do-site{
-    background-image: url(Fundo-HBO.png); 
+    background-image: url(Design\ sem\ nome.png); 
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #002BE7;
@@ -110,7 +110,7 @@ align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 125%;
     background-color: #3d4dac;
-    border-radius: 10px;
+    border-radius: 50px;
     border: solid 10px #3d4dac;
 }
 
@@ -118,6 +118,6 @@ align-items: center;
     background-color: #3d4dac;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 125%;
-    border-radius: 10px;
+    border-radius: 50px;
     border: solid 10px #3d4dac;
 }
