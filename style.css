@@ -10,7 +10,7 @@
 }
 
 .cabeçalho-imagem{
-width: 5,5%; 
+width: 5.5%; 
 padding: 13px;
 align-items: center;
 }
@@ -21,6 +21,7 @@ align-items: center;
     margin: 0px 34px;
     align-items: center;
 }
+
 
 .texto-cabeçalho1{
     margin: 0px 20px;
@@ -38,29 +39,28 @@ align-items: center;
 }
 
 .corpo-do-site{
-    background-image: url(Design\ sem\ nome.png); 
+    background-image: url(fundo.png); 
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #002BE7;
 }
 
-
 .primeiro{
     color: white;
     text-align: center;
-    margin: 450px;
+    margin: 250px;
 }
 
 .muito-mais-a-ver{
     font-family: arial;
-    font-size: 250%;
+    font-size: 200%;
     margin: 14px;
 }
 
 .titulo-planos{
     display: flex;  
     align-items: center;
-    margin: 0px 300px;
+    margin: 0px 500px;
 }
 
 .planos-a-partir{
@@ -82,7 +82,7 @@ align-items: center;
     border-radius: 10px;
     border: solid 10px #002BE7;
     font-size: 96%;
-    margin: 0px 400px;
+    margin: 0px 600px;
 }
 
 .titulo1{
