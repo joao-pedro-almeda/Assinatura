@@ -185,3 +185,19 @@ border-radius: 2%;
 
 
 }
+
+.terceiro{
+    background-color: #000000;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 34px;
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.filme-linha-1{
+    display: flex;
+    width: 40%;
+    margin: 24px 50px; 
+}
