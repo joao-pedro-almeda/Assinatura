@@ -7,6 +7,10 @@
    display: flex;
    opacity: 0.9;
    justify-content: space-between;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   right: 0;
 }
 
 .cabeçalho-imagem{
@@ -86,7 +90,7 @@ align-items: center;
 }
 
 .segundo{
-    background-image: linear-gradient(#002BE7,#000827);
+    background-image: linear-gradient(#0022b9,#0029e2);
 }
 
 .titulo1{
@@ -94,6 +98,7 @@ align-items: center;
     font-size: 250%;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 54px;
 }
 
 .economize{
@@ -177,7 +182,7 @@ border-radius: 2%;
 }
 
 .texto1{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 250%;
     text-align: center;
     margin: 55px 100px;
@@ -187,17 +192,43 @@ border-radius: 2%;
 }
 
 .terceiro{
-    background-color: #000000;
+    background-color: #060022;
     text-align: center;
     align-items: center;
-    color: white;
+    color: rgb(156, 156, 156);
     padding: 34px;
     font-size: 180%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.filme-linha-1{
+.filme-linha-primeira{
     display: flex;
-    width: 40%;
-    margin: 24px 50px; 
+    justify-content: center;
+    margin: 54px;
+}
+
+.filme-linha-1{
+    width: 20%;
+    margin: 12px 20px;
+}
+
+.filme-linha-dois{
+    display: flex;
+    justify-content: center;
+    margin: 54px;
+}
+
+.filme-linha-2{
+    width: 20%;
+    margin: 0px 20px;
+}
+
+.assine2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #002BE7;
+    border-radius: 10px;
+    border: solid 10px #002BE7;
+    font-size: 60%;
+    margin: 12px 820px;
+    color: white;
 }
