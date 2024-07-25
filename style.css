@@ -43,7 +43,7 @@ align-items: center;
 }
 
 .corpo-do-site{
-    background-image: url(fundo.png); 
+    background-image: url(Captura\ de\ tela_2024-07-25_11-27-48.pngl); 
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #002BE7;
@@ -235,7 +235,7 @@ border-radius: 2%;
 
 .max{
     width: 15%;
-    margin: 80px;
+    margin: 20px;
 }
 
 .final-titulo1{
@@ -252,9 +252,45 @@ margin: 0px 12px;
 }
 
 .texto1-final{
-    padding: 10px 580px;
+    padding: 10px 520px;
     font-size: 65%;
     color: white;
     text-align: start;
 
+}
+
+
+.final-titulo2{
+    display: flex;
+    font-size: 65%;
+    color: white;
+    align-items: center;
+    margin: 0px 500px;
+    text-align: center;
+}
+
+.dois-foto{
+width: 7%;
+margin: 0px 12px;
+}
+
+.texto2-final{
+    padding: 10px 520px;
+    font-size: 65%;
+    color: white;
+    text-align: start;
+
+}
+
+
+
+.perguntas{
+    color: white;
+    margin: 75px;
+}
+
+.titulo-perguntas{
+    font-size: 100%;
+    margin: 45px;
+    color: white;
 }
