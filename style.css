@@ -232,3 +232,29 @@ border-radius: 2%;
     margin: 12px 820px;
     color: white;
 }
+
+.max{
+    width: 15%;
+    margin: 80px;
+}
+
+.final-titulo1{
+    display: flex;
+    font-size: 70%;
+    color: white;
+    align-items: center;
+    margin: 0px 500px;
+}
+
+.um-foto{
+width: 7%;
+margin: 0px 12px;
+}
+
+.texto1-final{
+    padding: 10px 580px;
+    font-size: 65%;
+    color: white;
+    text-align: start;
+
+}
