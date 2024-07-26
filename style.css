@@ -43,7 +43,7 @@ align-items: center;
 }
 
 .corpo-do-site{
-    background-image: url(Captura\ de\ tela_2024-07-25_11-27-48.pngl); 
+    background-image: url(fundo.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #002BE7;
@@ -64,7 +64,7 @@ align-items: center;
 .titulo-planos{
     display: flex;  
     align-items: center;
-    margin: 0px 500px;
+    margin: 20px 500px;
 }
 
 .planos-a-partir{
@@ -90,7 +90,7 @@ align-items: center;
 }
 
 .segundo{
-    background-image: linear-gradient(#0022b9,#0029e2);
+    background-image: linear-gradient(#0022b9,#0029e2)
 }
 
 .titulo1{
