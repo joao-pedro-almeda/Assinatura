@@ -256,7 +256,7 @@ margin: 0px 12px;
 }
 
 .texto1-final{
-    padding: 10px 520px;
+    padding: 10px 600px;
     font-size: 65%;
     color: white;
     text-align: start;
@@ -275,11 +275,11 @@ margin: 0px 12px;
 
 .dois-foto{
 width: 7%;
-margin: 0px 12px;
+margin: 0px 20px;
 }
 
 .texto2-final{
-    padding: 10px 520px;
+    padding: 10px 600px;
     font-size: 65%;
     color: white;
     text-align: start;
@@ -345,25 +345,26 @@ margin: 0px 12px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+.direitos{
+    color: white;
+    font-size: 40%;
+    margin: 20px;
+}
 
     .rodape{
-        width: 5%;
         display: flex;
         justify-content: center;
         background-color: #060022;
       align-items: center;
       text-align: center;
+    }
+
+    .redes-sociais{
+        width: 1%;
+        margin: 0px 20px;
+    }
+
+    .redes{
+        margin: 0px 20px;
     }
     
