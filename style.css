@@ -23,7 +23,8 @@ align-items: center;
     color: white;
     display: flex;
     margin: 0px 34px;
-    align-items: center;
+    align-items: center;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -31,6 +32,8 @@ align-items: center;
     margin: 0px 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 94%;
+    color: white;
+
 }
 
 .texto-cabeçalho2{
@@ -40,6 +43,7 @@ align-items: center;
     border: solid 10px #002BE7;
     font-size: 94%;
     padding: 0px 18px;
+    color: white;
 }
 
 .corpo-do-site{
@@ -87,6 +91,7 @@ align-items: center;
     border: solid 10px #002BE7;
     font-size: 96%;
     margin: 0px 600px;
+    color: white;
 }
 
 .segundo{
@@ -237,17 +242,15 @@ border-radius: 2%;
     color: white;
 }
 
-.botap{
-display: flex;
-text-decoration: none;
-font-size: 150%;
-
-
-
-
-
+.escolha{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #002BE7;
+    border-radius: 7px;
+    border: solid 10px #002BE7;
+    font-size: 100%;
+    color: white;
+    margin: 125px;
 }
-
 
 
 
