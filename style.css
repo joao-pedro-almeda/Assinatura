@@ -237,6 +237,32 @@ border-radius: 2%;
     color: white;
 }
 
+.botap{
+display: flex;
+text-decoration: none;
+font-size: 150%;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .max{
     width: 15%;
     margin: 20px;
@@ -319,86 +345,6 @@ margin: 0px 20px;
     margin: 0px 100px;
 }
 
-.carousel-indicators{
--webkit-text-size-adjust: 100%;
--webkit-tap-highlight-color: rgba(0,0,0,0);
-font-weight: 400;
-text-align: left;
-color: #fff;
-font-size: 1.125rem;
-line-height: 1.6;
-font-family: "Max Sans";
-box-sizing: border-box;
-font-feature-settings: "locl" 0;
-right: 0;
-left: 0;
-display: flex;
-padding-left: 0;
-list-style: none;
-bottom: unset;
-margin: 0;
-top: -6.3rem;
-z-index: 10 !important;
-justify-content: flex-start;
-overflow: scroll;
-opacity: 1;
--webkit-mask-image: linear-gradient(to right, transparent 0%, black 20% 80%, transparent 100%);
-}
-
-.carousel-indicators li {
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    -webkit-flex: 0 1 auto;
-    -moz-box-flex: 0;
-    flex: 0 1 auto;
-    width: 30px;
-    height: 3px;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #fff;
-    background-clip: padding-box;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    opacity: .5;
-    -webkit-transition: opacity .6s ease;
-    -moz-transition: opacity .6s ease;
-    transition: opacity .6s ease;
-}
-
-.carousel-indicators {
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 15;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: flex;
-    -webkit-justify-content: center;
-    -moz-box-pack: center;
-    justify-content: center;
-    padding-left: 0;
-    margin-right: 15%;
-    margin-left: 15%;
-    list-style: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .direitos{
     color: white;
@@ -412,6 +358,7 @@ opacity: 1;
         background-color: #060022;
       align-items: center;
       text-align: center;
+
     }
 
     .redes-sociais{
