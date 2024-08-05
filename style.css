@@ -252,6 +252,14 @@ border-radius: 2%;
     margin: 125px;
 }
 
+.botao{
+    background-color: #060022;
+color: white;
+border-color: #060022;
+margin: 100px 24px;
+font-size: 100%;
+
+}
 
 
 
