@@ -148,8 +148,6 @@ align-items: center;
     align-items: center;
 }
 
-
-
 .assinatura1{
 width: 350px;
 height: 350px;
@@ -183,7 +181,11 @@ border-radius: 2%;
     color: #002BE7;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 20px 20px;
-    font-size: 150%;
+    font-size: 100%;
+}
+
+.texto-plano1{
+    font-size: 120%;
 }
 
 .texto1{
@@ -192,8 +194,27 @@ border-radius: 2%;
     text-align: center;
     margin: 55px 100px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
 
+.check{
+    width: 10%;
+    margin: 0px 12px;
+    display: flex;
+}
 
+.textos-plano-1{
+    display: flex;
+    margin: 15px;
+}
+
+.escolha{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #002BE7;
+    border-radius: 7px;
+    border: solid 10px #002BE7;
+    font-size: 120%;
+    color: white;
+    margin: 125px 79px;
 }
 
 .terceiro{
@@ -242,15 +263,7 @@ border-radius: 2%;
     color: white;
 }
 
-.escolha{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #002BE7;
-    border-radius: 7px;
-    border: solid 10px #002BE7;
-    font-size: 100%;
-    color: white;
-    margin: 125px;
-}
+
 
 .botao{
     background-color: #060022;
@@ -258,7 +271,7 @@ color: white;
 border-color: #060022;
 margin: 100px 24px;
 font-size: 100%;
-
+border: none;
 }
 
 
@@ -336,12 +349,7 @@ margin: 0px 20px;
     color: white;
 }
 
-.check{
-    width: 7%;
-    margin: 0px 12px;
-    display: flex;
-    font-size: 70%;
-}
+
 
 .teste{
     display: flex;
