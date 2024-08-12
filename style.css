@@ -185,7 +185,7 @@ border-radius: 2%;
 }
 
 .texto-plano1{
-    font-size: 120%;
+    font-size: 100%;
 }
 
 .texto1{
@@ -198,13 +198,20 @@ border-radius: 2%;
 
 .check{
     width: 10%;
-    margin: 0px 12px;
-    display: flex;
+}
+
+.monitor{
+    width: 10%;
 }
 
 .textos-plano-1{
     display: flex;
     margin: 15px;
+}
+
+.preço{
+    color: #0022b9;
+    font-size: 200%;
 }
 
 .escolha{
@@ -214,7 +221,7 @@ border-radius: 2%;
     border: solid 10px #002BE7;
     font-size: 120%;
     color: white;
-    margin: 125px 79px;
+    margin: 100px 79px;
 }
 
 .terceiro{
