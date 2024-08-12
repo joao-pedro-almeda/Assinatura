@@ -181,7 +181,7 @@ border-radius: 2%;
     color: #002BE7;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 20px 20px;
-    font-size: 100%;
+    font-size: 150%;
 }
 
 .texto-plano1{
@@ -198,6 +198,21 @@ border-radius: 2%;
 
 .check{
     width: 10%;
+}
+
+.download{
+    width: 5%;
+    margin: 0px 7px;
+}
+
+.escolha3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #002BE7;
+    border-radius: 7px;
+    border: solid 10px #002BE7;
+    font-size: 120%;
+    color: white;
+    margin: 50px 79px;
 }
 
 .monitor{
@@ -222,6 +237,26 @@ border-radius: 2%;
     font-size: 120%;
     color: white;
     margin: 100px 79px;
+}
+
+.escolha2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #002BE7;
+    border-radius: 7px;
+    border: solid 10px #002BE7;
+    font-size: 120%;
+    color: white;
+    margin: 105px 79px;
+}
+
+.escolha3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #002BE7;
+    border-radius: 7px;
+    border: solid 10px #002BE7;
+    font-size: 120%;
+    color: white;
+    margin: 55px 79px;
 }
 
 .terceiro{
