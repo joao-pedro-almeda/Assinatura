@@ -303,7 +303,9 @@ border-radius: 2%;
     font-size: 60%;
     margin: 12px 820px;
     color: white;
+
 }
+
 
 
 
@@ -343,8 +345,19 @@ border: none;
 }
 
 .um-foto{
-width: 7%;
+width: 5%;
 margin: 0px 12px;
+}
+
+.fonte1{
+    list-style: none;
+    font-size: 80%;
+   
+}
+
+.turmas{
+    text-align: start;
+    margin: 24px 450px;
 }
 
 .texto1-final{
@@ -366,7 +379,7 @@ margin: 0px 12px;
 }
 
 .dois-foto{
-width: 7%;
+width: 5%;
 margin: 0px 20px;
 }
 
@@ -409,7 +422,7 @@ margin: 0px 20px;
 .final1{
     background-color: #060022;
     color: white;
-    border-color: #060022;
+    border: none;
     margin: 0px 17px;
     font-size: 55%;
 }
@@ -419,8 +432,9 @@ margin: 0px 20px;
 .final2{
 background-color: #060022;
 color: white;
-border-color: #060022;
+border: none;
 margin: 0px 24px;
+
 }
 
 
