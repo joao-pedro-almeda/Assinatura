@@ -33,10 +33,15 @@
 
 
 <section class="segundo">
-    <H3 class="titulo1">ESCOLHA O MELHOR PLANO PARA VOCÊ</H3>
-    <p class="economize">ECONOMIZE ATÉ 36%</p>
-    <DIV class="planos">
-    <p class="mensal">MENSAL</p> <P class="anual">ANUAL PARCELADO</P>
+    <div class="radio-inputs">
+      <label class="radio">
+        <input checked="" name="radio" type="radio" />
+        <span class="name">Mensal</span>
+      </label>
+      <label class="radio">
+        <input name="radio" type="radio" />
+        <span class="name">Anual Parcelado</span>
+      </label>
     </div>
 
     <div class="assinaturas-planos">
@@ -94,47 +99,115 @@
 
 <a href="https://auth.max.com/product?_referrer=eyJlbGVtZW50IjoiQnV0dG9uIiwic2NyZWVuTmFtZSI6IkFzc2lzdGlyIEZpbG1lcyBPbmxpbmUgfCBBc3Npc3RpciBTcmllcyBPbmxpbmUgfCBNYXgiLCJzY3JlZW5VUkkiOiJodHRwczovL3d3dy5tYXguY29tL2JyL3B0IiwibG9jYXRpb24iOiJIb21lcGFnZS9Bc3Npc3RpciBGaWxtZXMgT25saW5lIHwgQXNzaXN0aXIgU3JpZXMgT25saW5lIHwgTWF4fGJhbmR8MTU3OTM1IiwibG9jYXRpb25Qb3NpdGlvbiI6MCwidGFyZ2V0VGV4dCI6IkFTU0lORSBBR09SQSJ9"><h2 class="assine2">ASSINE AGORA</h2></a>
 
+<h2 class="descubra">DESCUBRA O MELHOR DE</h2>
 
+<div class="botoes">
+<button class="botao" onclick="drama()">Drama</button>
+<button class="botao" onclick="realities()">Realities</button>
+<button class="botao" onclick="Ação()">Ação</button>
+<button class="botao" onclick="comedia()">Comédia</button>
+<button class="botao" onclick="policial()">Policial</button>
+<button class="botao" onclick="filmes()">Filmes</button>
+</div>
 
-<div class="botao">
-<button class="botao" onclick="carConteudo()">Drama</button>
-<span id="imagem"></span>
-
-
-<script src="script.js"></script>
-
-
-<button class="botao" onclick="carConteudo1()">Realities</button>
-<span id="imagem1"></span>
-
-
-<script class="botao" src="script.js"></script>
-
-<button class="botao" onclick="carConteudo2()">Ação</button>
-<span id="imagem3"></span>
-
-
-<script class="botao" src="script.js"></script>
-
-<button class="botao" onclick="carConteudo3()">Comédia</button>
-<span id="imagem4"></span>
-
-
-<script src="script.js"></script>
-
-
-<button class="botao" onclick="carConteudo4()">Policial</button>
-<span id="imagem5"></span>
-
-
-<script src="script.js"></script>
-
-<button class="botao" onclick="carConteudo5()">Filmes</button>
-<span id="imagem6"></span>
-
-
-<script src="script.js"></script>
-
+<img id="image" src="drama.png" alt="">
+  
+<script>
+    var x =0;
+    var img = document.getElementById('image')
+    function drama(){
+        if (x==0) 
+    {
+    img.src='drama.png';
+    x=1;
+    }
+    else
+    {
+    img.src='drama.png';
+    x=0;
+    }
+    }
+</script>
+<script>
+        var x =0;
+    var img = document.getElementById('image')
+    function realities(){
+        if (x==0) 
+    {
+    img.src='realities.png';
+    x=1;
+    }
+    else
+    {
+    img.src='realities.png';
+    x=0;
+    }
+    }
+</script>
+<script>
+        var x =0;
+    var img = document.getElementById('image')
+    function Ação(){
+        if (x==0) 
+    {
+    img.src='ação.png';
+    x=1;
+    }
+    else
+    {
+    img.src='ação.png';
+    x=0;
+    }
+    }
+</script>
+<script>
+        var x =0;
+    var img = document.getElementById('image')
+    function comedia(){
+        if (x==0) 
+    {
+    img.src='comedia.png';
+    x=1;
+    }
+    else
+    {
+    img.src='comedia.png';
+    x=0;
+    }
+    }
+</script>
+<script>
+        var x =0;
+    var img = document.getElementById('image')
+    function policial(){
+        if (x==0) 
+    {
+    img.src='policia.png';
+    x=1;
+    }
+    else
+    {
+    img.src='policia.png';
+    x=0;
+    }
+    }
+</script>
+<script>
+        var x =0;
+    var img = document.getElementById('image')
+    function filmes(){
+        if (x==0) 
+    {
+    img.src='filmes.png';
+    x=1;
+    }
+    else
+    {
+    img.src='filmes.png';
+    x=0;
+    }
+    }
+</script>
 </div>
 
 <div>
@@ -163,21 +236,20 @@
 
 <div>
 <details class="turmas">
-    <summary class="fonte1" >Como faço para assinar?</summary>
-     <p>>A Max está disponível para assinatura aqui na max.com e também através dos nossos provedores de assinatura na região.  
-
-        Se você tem a HBO no seu pacote de televisão por assinatura e/ou serviço de internet, você terá acesso à Max sem custo adicional. Você pode entrar em contato com sua operadora local para obter mais detalhes.  </p>
+    <summary class="fonte1">Como faço para assinar?</summary>
+     <p class="texto-perguntas">A Max está disponível para assinatura aqui na max.com e também através dos nossos provedores de assinatura na região.</p>  
+     <p class="texto-perguntas" > Se você tem a HBO no seu pacote de televisão por assinatura e/ou serviço de internet, você terá acesso à Max sem custo adicional. Você pode entrar em contato com sua operadora local para obter mais detalhes.  </p>
 </div>
 
 <div>
 <details class="turmas">
     <summary class="fonte1" >Onde a max esta disponivel?</summary>
-    <p>Nossa plataforma aprimorada está disponível para Anguila, Antígua e Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bolívia, Brasil, Chile, Colômbia, Costa Rica, Curaçao, Dominica, Equador, El Salvador, Granada, Guatemala, Guiana, Haiti, Honduras, Ilhas Virgens Britânicas, Ilhas Cayman, Jamaica, México, Montserrat, Nicarágua, Panamá, Paraguai, Peru, República Dominicana, Saint Kitts e Nevis, Santa Lúcia, São Vicente e Granadinas, Suriname, Trinidad e Tobago, Turks e Caicos, Uruguai, Venezuela e Estados Unidos.</p>
+    <p class="texto-perguntas">Nossa plataforma aprimorada está disponível para Anguila, Antígua e Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bolívia, Brasil, Chile, Colômbia, Costa Rica, Curaçao, Dominica, Equador, El Salvador, Granada, Guatemala, Guiana, Haiti, Honduras, Ilhas Virgens Britânicas, Ilhas Cayman, Jamaica, México, Montserrat, Nicarágua, Panamá, Paraguai, Peru, República Dominicana, Saint Kitts e Nevis, Santa Lúcia, São Vicente e Granadinas, Suriname, Trinidad e Tobago, Turks e Caicos, Uruguai, Venezuela e Estados Unidos.</p>
 </div>
 <div>
 <details class="turmas">
-    <summary class="fonte1" >Quanto custa a max?</summary>
-    <p>Novos usuários podem escolher entre três planos, dependendo de suas preferências:
+    <summary class="fonte1">Quanto custa a max?</summary>
+    <p class="texto-perguntas">Novos usuários podem escolher entre três planos, dependendo de suas preferências:
 
         Plano Básico com Anúncios: A assinatura mensal custa R$29,90 e a anual custa R$226,80.
         
@@ -202,13 +274,13 @@
     <div>
 <details class="turmas">
     <summary class="fonte1" >Em quais dispositivos a max está disponivel?</summary>
-    <p>Nossa plataforma aprimorada está disponível para Anguila, Antígua e Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bolívia, Brasil, Chile, Colômbia, Costa Rica, Curaçao, Dominica, Equador, El Salvador, Granada, Guatemala, Guiana, Haiti, Honduras, Ilhas Virgens Britânicas, Ilhas Cayman, Jamaica, México, Montserrat, Nicarágua, Panamá, Paraguai, Peru, República Dominicana, Saint Kitts e Nevis, Santa Lúcia, São Vicente e Granadinas, Suriname, Trinidad e Tobago, Turks e Caicos, Uruguai, Venezuela e Estados Unidos.</p>
+    <p  class="texto-perguntas">Nossa plataforma aprimorada está disponível para Anguila, Antígua e Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bolívia, Brasil, Chile, Colômbia, Costa Rica, Curaçao, Dominica, Equador, El Salvador, Granada, Guatemala, Guiana, Haiti, Honduras, Ilhas Virgens Britânicas, Ilhas Cayman, Jamaica, México, Montserrat, Nicarágua, Panamá, Paraguai, Peru, República Dominicana, Saint Kitts e Nevis, Santa Lúcia, São Vicente e Granadinas, Suriname, Trinidad e Tobago, Turks e Caicos, Uruguai, Venezuela e Estados Unidos.</p>
 </div>
 
 <div>
 <details class="turmas">
     <summary class="fonte1" >Eu tenho HBO. Eutenho acesso a max?</summary>
-    <p>Nossa plataforma aprimorada está disponível para Anguila, Antígua e Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bolívia, Brasil, Chile, Colômbia, Costa Rica, Curaçao, Dominica, Equador, El Salvador, Granada, Guatemala, Guiana, Haiti, Honduras, Ilhas Virgens Britânicas, Ilhas Cayman, Jamaica, México, Montserrat, Nicarágua, Panamá, Paraguai, Peru, República Dominicana, Saint Kitts e Nevis, Santa Lúcia, São Vicente e Granadinas, Suriname, Trinidad e Tobago, Turks e Caicos, Uruguai, Venezuela e Estados Unidos.</p>
+    <p class="texto-perguntas">Nossa plataforma aprimorada está disponível para Anguila, Antígua e Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bolívia, Brasil, Chile, Colômbia, Costa Rica, Curaçao, Dominica, Equador, El Salvador, Granada, Guatemala, Guiana, Haiti, Honduras, Ilhas Virgens Britânicas, Ilhas Cayman, Jamaica, México, Montserrat, Nicarágua, Panamá, Paraguai, Peru, República Dominicana, Saint Kitts e Nevis, Santa Lúcia, São Vicente e Granadinas, Suriname, Trinidad e Tobago, Turks e Caicos, Uruguai, Venezuela e Estados Unidos.</p>
 </div></div></div></div>
 
 

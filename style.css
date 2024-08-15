@@ -77,6 +77,50 @@ align-items: center;
     font-size: 150%;
 }
 
+.radio-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    background-color: #2845DC;
+    box-sizing: border-box;
+    padding: 0.25rem;
+    width: 340px;
+    font-size: 14px;
+    height: 46px;
+    justify-content: center;
+    border: solid 2px white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .radio-inputs .radio {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  
+  .radio-inputs .radio input {
+    display: none;
+  }
+  
+  .radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border: 0;
+    padding: 0.5rem 0;
+    color: rgb(0, 0, 0);
+    transition: all 0.15s ease-in-out;
+    font-size: 120%;
+    
+  }
+  
+  .radio-inputs .radio input:checked + .name {
+    background-color: #fff;
+    font-weight: 600;
+  }
+  
+
 .valor{
     font-family: arial;
     font-size: 170%;
@@ -306,34 +350,24 @@ border-radius: 2%;
 
 }
 
-
-
-
 .botao{
-    background-color: #060022;
+background-color: #060022;
 color: white;
-border-color: #060022;
-margin: 100px 24px;
+margin: 10px 24px;
 font-size: 100%;
 border: none;
+cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.descubra{
+    color: white;
+    font-size: 80%;
+    margin: 50px;
+}
 
 .max{
     width: 15%;
-    margin: 20px;
+    margin: 40px;
 }
 
 .final-titulo1{
@@ -396,6 +430,7 @@ margin: 0px 20px;
 .perguntas{
     color: white;
     margin: 75px;
+    cursor: pointer;
 }
 
 .titulo-perguntas{
@@ -425,6 +460,7 @@ margin: 0px 20px;
     border: none;
     margin: 0px 17px;
     font-size: 55%;
+    cursor: pointer;
 }
 
 
@@ -434,7 +470,13 @@ background-color: #060022;
 color: white;
 border: none;
 margin: 0px 24px;
+cursor: pointer;
 
+}
+
+.texto-perguntas{
+    font-size: 65%;
+    margin: 20px;
 }
 
 
